@@ -4,7 +4,7 @@ const pricingTranslations = {
     menuOpen:"Open menu",navHome:"Home",navPricing:"Pricing",navCalculator:"Calculator",navBooking:"Booking",language:"Language",bookNow:"Book Now",
     pricingEyebrow:"Transparent starting prices",pricingTitle:"Pricing & Booking",pricingIntro:"Use our starting prices and calculator to plan your service. Final pricing may change after an inspection or review of project photos.",calculatePrice:"Calculate Price",callNow:"Call Now",
     pricesEyebrow:"Starting prices",pricesTitle:"Professional services for homes and businesses",pricesDisclaimer:"Prices shown are starting estimates. Property size, condition, materials, access, contamination level, labor, equipment, and emergency response can affect the final quote.",
-    residential:"Residential Cleaning",residentialCopy:"Routine cleaning for apartments and homes.",commercial:"Commercial Cleaning",commercialCopy:"Offices, stores, restaurants, and recurring service.",move:"Move In / Move Out",moveCopy:"A detailed reset before or after moving.",upholstery:"Upholstery Cleaning",upholsteryCopy:"Chairs, sofas, sectionals, and mattresses.",carpet:"Carpet Cleaning",carpetCopy:"Starting price for one standard room.",windows:"Window Cleaning",windowsCopy:"Per window, interior service starting price.",water:"Water Damage Restoration",waterCopy:"Extraction, drying, cleanup, and restoration.",mold:"Mold Remediation",moldCopy:"Small treatment areas; inspection required.",fire:"Fire & Smoke Restoration",fireCopy:"Smoke, soot, odor, and affected surfaces.",
+    residential:"Residential Cleaning",residentialCopy:"Routine cleaning for apartments and homes.",commercial:"Commercial Cleaning",commercialCopy:"Offices, stores, restaurants, and recurring service.",yardGarden:"Yard & Garden Cleanup",yardGardenCopy:"Leaves, debris, light weeds, and general outdoor cleanup for small properties and common areas.",fenceExterior:"Fence & Exterior Wall Cleaning",fenceExteriorCopy:"Standard fence or exterior-wall cleaning; delicate surfaces may require soft washing.",sidewalkWalkway:"Sidewalk & Walkway Cleaning",sidewalkWalkwayCopy:"Concrete sidewalks, walkways, entrances, and exterior common areas.",move:"Move In / Move Out",moveCopy:"A detailed reset before or after moving.",upholstery:"Upholstery Cleaning",upholsteryCopy:"Chairs, sofas, sectionals, and mattresses.",carpet:"Carpet Cleaning",carpetCopy:"Starting price for one standard room.",windows:"Window Cleaning",windowsCopy:"Per window, interior service starting price.",water:"Water Damage Restoration",waterCopy:"Extraction, drying, cleanup, and restoration.",mold:"Mold Remediation",moldCopy:"Small treatment areas; inspection required.",fire:"Fire & Smoke Restoration",fireCopy:"Smoke, soot, odor, and affected surfaces.",
     discountTitle:"Available discounts",discountCopy:"10% first-service, senior, military, or veteran discount. Discounts cannot be combined. Referral credit: $25 after the referred service is completed and paid.",
     calculatorEyebrow:"Instant estimate",calculatorTitle:"Price Calculator",calculatorCopy:"Select the service and project details to receive a planning estimate. This is not a final quote.",
     serviceType:"Service type",propertySize:"Property / project size",bedrooms:"Bedrooms / work areas",bathrooms:"Bathrooms",extras:"Additional items",urgent:"Emergency / priority response (+$250)",
@@ -22,7 +22,7 @@ const pricingTranslations = {
     menuOpen:"Abrir menú",navHome:"Inicio",navPricing:"Precios",navCalculator:"Calculadora",navBooking:"Reserva",language:"Idioma",bookNow:"Reservar ahora",
     pricingEyebrow:"Precios iniciales transparentes",pricingTitle:"Precios y Reservas",pricingIntro:"Utilice nuestros precios iniciales y la calculadora para planificar su servicio. El precio final puede cambiar después de una inspección o revisión de fotografías.",calculatePrice:"Calcular precio",callNow:"Llamar ahora",
     pricesEyebrow:"Precios iniciales",pricesTitle:"Servicios profesionales para hogares y negocios",pricesDisclaimer:"Los precios mostrados son estimaciones iniciales. El tamaño, condición, materiales, acceso, nivel de contaminación, mano de obra, equipo y respuesta de emergencia pueden afectar la cotización final.",
-    residential:"Limpieza residencial",residentialCopy:"Limpieza rutinaria para apartamentos y casas.",commercial:"Limpieza comercial",commercialCopy:"Oficinas, tiendas, restaurantes y servicio recurrente.",move:"Limpieza de entrada / salida",moveCopy:"Limpieza detallada antes o después de una mudanza.",upholstery:"Limpieza de tapicería",upholsteryCopy:"Sillas, sofás, seccionales y colchones.",carpet:"Limpieza de alfombras",carpetCopy:"Precio inicial para una habitación estándar.",windows:"Limpieza de ventanas",windowsCopy:"Precio inicial por ventana para servicio interior.",water:"Restauración por daños de agua",waterCopy:"Extracción, secado, limpieza y restauración.",mold:"Remediación de moho",moldCopy:"Áreas pequeñas; se requiere inspección.",fire:"Restauración por fuego y humo",fireCopy:"Humo, hollín, olores y superficies afectadas.",
+    residential:"Limpieza residencial",residentialCopy:"Limpieza rutinaria para apartamentos y casas.",commercial:"Limpieza comercial",commercialCopy:"Oficinas, tiendas, restaurantes y servicio recurrente.",yardGarden:"Limpieza de jardines y patios",yardGardenCopy:"Retiro de hojas, residuos, maleza ligera y limpieza general exterior para propiedades pequeñas y áreas comunes.",fenceExterior:"Limpieza de bardas y paredes exteriores",fenceExteriorCopy:"Limpieza estándar de bardas o paredes exteriores; las superficies delicadas pueden requerir lavado suave.",sidewalkWalkway:"Limpieza de veredas y caminos",sidewalkWalkwayCopy:"Limpieza de concreto en veredas, caminos, entradas y áreas comunes exteriores.",move:"Limpieza de entrada / salida",moveCopy:"Limpieza detallada antes o después de una mudanza.",upholstery:"Limpieza de tapicería",upholsteryCopy:"Sillas, sofás, seccionales y colchones.",carpet:"Limpieza de alfombras",carpetCopy:"Precio inicial para una habitación estándar.",windows:"Limpieza de ventanas",windowsCopy:"Precio inicial por ventana para servicio interior.",water:"Restauración por daños de agua",waterCopy:"Extracción, secado, limpieza y restauración.",mold:"Remediación de moho",moldCopy:"Áreas pequeñas; se requiere inspección.",fire:"Restauración por fuego y humo",fireCopy:"Humo, hollín, olores y superficies afectadas.",
     discountTitle:"Descuentos disponibles",discountCopy:"10% en el primer servicio, para personas mayores, militares o veteranos. Los descuentos no se combinan. Crédito por referido: $25 después de completar y pagar el servicio referido.",
     calculatorEyebrow:"Estimación instantánea",calculatorTitle:"Calculadora de precios",calculatorCopy:"Seleccione el servicio y los detalles del proyecto para recibir una estimación de planificación. No es una cotización final.",
     serviceType:"Tipo de servicio",propertySize:"Tamaño de la propiedad / proyecto",bedrooms:"Habitaciones / áreas de trabajo",bathrooms:"Baños",extras:"Artículos adicionales",urgent:"Respuesta de emergencia / prioridad (+$250)",
@@ -40,7 +40,10 @@ const pricingTranslations = {
 
 const basePrices = Object.freeze({
   residential:120,
-  commercial:250,
+  commercial:180,
+  yardGarden:175,
+  fenceExterior:150,
+  sidewalkWalkway:125,
   move:300,
   upholstery:150,
   carpet:180,
@@ -51,8 +54,8 @@ const basePrices = Object.freeze({
 });
 
 const serviceLabels = {
-  en:{residential:"Residential Cleaning",commercial:"Commercial Cleaning",move:"Move In / Move Out",upholstery:"Upholstery Cleaning",carpet:"Carpet Cleaning",windows:"Window Cleaning",water:"Water Damage Restoration",mold:"Mold Remediation",fire:"Fire & Smoke Restoration"},
-  es:{residential:"Limpieza residencial",commercial:"Limpieza comercial",move:"Limpieza de entrada / salida",upholstery:"Limpieza de tapicería",carpet:"Limpieza de alfombras",windows:"Limpieza de ventanas",water:"Restauración por daños de agua",mold:"Remediación de moho",fire:"Restauración por fuego y humo"}
+  en:{residential:"Residential Cleaning",commercial:"Commercial Cleaning",yardGarden:"Yard & Garden Cleanup",fenceExterior:"Fence & Exterior Wall Cleaning",sidewalkWalkway:"Sidewalk & Walkway Cleaning",move:"Move In / Move Out",upholstery:"Upholstery Cleaning",carpet:"Carpet Cleaning",windows:"Window Cleaning",water:"Water Damage Restoration",mold:"Mold Remediation",fire:"Fire & Smoke Restoration"},
+  es:{residential:"Limpieza residencial",commercial:"Limpieza comercial",yardGarden:"Limpieza de jardines y patios",fenceExterior:"Limpieza de bardas y paredes exteriores",sidewalkWalkway:"Limpieza de veredas y caminos",move:"Limpieza de entrada / salida",upholstery:"Limpieza de tapicería",carpet:"Limpieza de alfombras",windows:"Limpieza de ventanas",water:"Restauración por daños de agua",mold:"Remediación de moho",fire:"Restauración por fuego y humo"}
 };
 
 const TERMS_VERSION="DOMZOR-TC-2026-07-20-v1";
@@ -143,6 +146,15 @@ function calculate(){
       break;
     case "commercial":
       total=base*multiplier+roomCount*35+bathCount*35+extraCount*25;
+      break;
+    case "yardGarden":
+      total=base*multiplier+Math.max(0,roomCount-1)*45+extraCount*35;
+      break;
+    case "fenceExterior":
+      total=base*multiplier+Math.max(0,roomCount-1)*40+extraCount*30;
+      break;
+    case "sidewalkWalkway":
+      total=base*multiplier+Math.max(0,roomCount-1)*35+extraCount*25;
       break;
     case "move":
       total=base*multiplier+roomCount*30+bathCount*35+extraCount*20;
