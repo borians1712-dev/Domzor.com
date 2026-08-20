@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="420" viewBox="0 0 1200 420"
+     role="img" aria-labelledby="title desc">
+  <title id="title">DOMZOR Cleaning &amp; Restoration white logo</title>
+  <desc id="desc">Transparent vector logo with white house and wordmark, plus green sparkles and tagline.</desc>
+
+  <!-- Transparent background -->
+
+  <!-- House roof and chimney -->
+  <g fill="#FFFFFF">
+    <path d="M165 190 L420 38 L675 190 L612 190 L420 78 L228 190 Z"/>
+    <rect x="316" y="58" width="48" height="100" rx="2"/>
+  </g>
+
+  <!-- Window -->
+  <g fill="#FFFFFF">
+    <rect x="392" y="112" width="20" height="20" rx="1"/>
+    <rect x="418" y="112" width="20" height="20" rx="1"/>
+    <rect x="392" y="138" width="20" height="20" rx="1"/>
+    <rect x="418" y="138" width="20" height="20" rx="1"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#63C10F">
+    <path d="M760 55
+             C765 80 780 95 805 100
+             C780 105 765 120 760 145
+             C755 120 740 105 715 100
+             C740 95 755 80 760 55 Z"/>
+    <path d="M842 92
+             C846 110 857 121 875 125
+             C857 129 846 140 842 158
+             C838 140 827 129 809 125
+             C827 121 838 110 842 92 Z"/>
+  </g>
+
+  <!-- Main wordmark -->
+  <text x="52" y="315"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="170"
+        font-weight="700"
+        letter-spacing="1"
+        fill="#FFFFFF">DOMZOR</text>
+
+  <!-- Tagline and side lines -->
+  <g fill="#63C10F">
+    <rect x="54" y="354" width="55" height="7" rx="3.5"/>
+    <rect x="1090" y="354" width="55" height="7" rx="3.5"/>
+  </g>
+  <text x="135" y="384"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="52"
+        font-weight="700"
+        letter-spacing="4"
+        fill="#63C10F">CLEANING &amp; RESTORATION</text>
+</svg>

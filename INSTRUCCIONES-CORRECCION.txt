@@ -1,0 +1,34 @@
+DOMZOR — CORRECCIÓN COMPLETA DE PRECIOS Y RESERVAS
+
+REEMPLAZA ÚNICAMENTE ESTOS ARCHIVOS EN GITHUB:
+1. pricing.js
+2. pricing.html
+3. terms.js
+4. legal-terms.html
+5. service-worker.js
+
+CORRECCIONES:
+- Los precios cambian inmediatamente al seleccionar cada servicio.
+- Se agregaron eventos CHANGE e INPUT para celulares y computadoras.
+- Restauración por agua: desde $1,200.
+- Remediación de moho: desde $1,500.
+- Restauración por fuego y humo: desde $1,000.
+- Respuesta de emergencia suma exactamente $250 al total.
+- El anticipo se recalcula automáticamente al 30%.
+- La aceptación de términos queda guardada correctamente.
+- Al aceptar los términos, vuelve a pricing.html#booking.
+- La casilla de aceptación se habilita automáticamente.
+- Los textos del bloque de términos cambian entre inglés y español.
+- Se actualizó el Service Worker para evitar que el navegador siga mostrando archivos antiguos.
+
+PRUEBAS DESPUÉS DE SUBIR:
+1. Abre domzor.com/pricing.html en una pestaña privada.
+2. Selecciona fuego y humo: debe mostrar $1,000 y $300.
+3. Marca emergencia: debe mostrar $1,250 y $375.
+4. Selecciona moho: debe mostrar $1,500 y $450.
+5. Marca emergencia: debe mostrar $1,750 y $525.
+6. Acepta términos y confirma que regresa a la reserva con la casilla habilitada.
+
+NOTA:
+Después del Commit, espera 1–3 minutos. Si todavía aparece la versión anterior,
+cierra todas las pestañas de domzor.com y abre una pestaña privada.

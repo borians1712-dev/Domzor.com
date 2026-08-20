@@ -1,0 +1,9 @@
+{
+  "name":"DOMZOR Cleaning & Restoration",
+  "short_name":"DOMZOR",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#ffffff",
+  "theme_color":"#073763",
+  "icons":[{"src":"assets/domzor-logo.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
