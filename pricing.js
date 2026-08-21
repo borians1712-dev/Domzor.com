@@ -44,12 +44,12 @@ const basePrices = Object.freeze({
   yardGarden:175,
   fenceExterior:150,
   sidewalkWalkway:125,
-  move:300,
-  upholstery:150,
-  carpet:180,
-  windows:100,
-  water:1200,
-  mold:1500,
+  move:200,
+  upholstery:60,
+  carpet:70,
+  windows:8,
+  water:350,
+  mold:500,
   fire:1000
 });
 
