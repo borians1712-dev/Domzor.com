@@ -1,0 +1,80 @@
+DOMZOR — PAQUETE DE MEJORAS ADITIVAS
+====================================
+
+OBJETIVO
+-------
+Agregar mejoras sin borrar, reemplazar ni reescribir las funciones actuales del sitio.
+
+RAMA CORRECTA
+-------------
+Subir TODO primero a:
+domzor-improvements
+
+NO subir directamente a main.
+NO usar "Sync fork".
+NO borrar archivos existentes.
+
+ARCHIVOS NUEVOS A SUBIR
+-----------------------
+1. domzor-enhancements.css
+2. domzor-enhancements.js
+
+Estos dos nombres son nuevos y no deben reemplazar archivos existentes.
+
+DESPUÉS DE SUBIRLOS
+-------------------
+Editar ÚNICAMENTE index.html de la rama domzor-improvements.
+
+A) Justo antes de </head>, agregar:
+<link rel="stylesheet" href="domzor-enhancements.css">
+
+B) Justo antes de </body>, agregar:
+<script src="domzor-enhancements.js" defer></script>
+
+No borrar ninguna otra línea de index.html.
+
+QUÉ AÑADE
+---------
+- Sección de limpieza comercial para oficinas, almacenes/facilities, restaurantes,
+  iglesias, escuelas y post-construction/restoration cleanup.
+- Proceso de cotización en 3 pasos.
+- Preguntas frecuentes.
+- CTA adicional para pedir cotización o llamar.
+- Botones flotantes de llamada y WhatsApp.
+- Captura UTM en formularios existentes.
+- Eventos para Google Tag Manager / dataLayer si se instala analítica después.
+- Schema LocalBusiness + FAQ.
+- Canonical y metadatos SEO si el sitio aún no los tiene.
+- Mejoras de accesibilidad y diseño móvil.
+
+TELÉFONO USADO
+--------------
+(312) 778-4975
+
+DOMINIO
+-------
+https://domzor.com/
+
+IMPORTANTE
+----------
+Este paquete NO reemplaza:
+- index.html
+- style.css
+- app.js
+- CNAME
+- imágenes
+- páginas legales
+- admin
+- pricing
+- service-worker
+- archivos de Supabase
+- ninguna otra función existente
+
+Así se protege todo lo que ya tiene DOMZOR.
+
+PASO DE VERIFICACIÓN
+--------------------
+Después de subir los 2 archivos y agregar las 2 líneas al index.html,
+NO hagas merge a main todavía.
+
+Avísame y revisaré la rama domzor-improvements antes de publicarla.

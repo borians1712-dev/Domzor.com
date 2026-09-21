@@ -1,0 +1,22 @@
+{
+  "01-PEGAR-ANTES-DE-CERRAR-HEAD.html": {
+    "bytes": 126,
+    "sha256": "a6369b2f24d53450336b6212a02e9e438175b14267158d93e8d342efd5336709"
+  },
+  "02-PEGAR-ANTES-DE-CERRAR-BODY.html": {
+    "bytes": 132,
+    "sha256": "c138ee12c1afb075f846463b9344eed5a19bb0b59a6636f59bc5f5bbc907750b"
+  },
+  "LEEME-PRIMERO.txt": {
+    "bytes": 1984,
+    "sha256": "4a916afa21a99c711c71c4b40b745bd284d98810b3b26eeac48bf3f6e369402e"
+  },
+  "domzor-enhancements.css": {
+    "bytes": 3099,
+    "sha256": "08636de71b2a7ebe890db13d0da99325d4b761aaa1e4a0e447957e6965fbd022"
+  },
+  "domzor-enhancements.js": {
+    "bytes": 11506,
+    "sha256": "8858cca451e50052558cc43568e7246e800885b53970ef29dbcc0487aea00e46"
+  }
+}
